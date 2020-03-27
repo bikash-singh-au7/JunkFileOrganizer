@@ -31,7 +31,7 @@ import JunkFileOrganizer
 Step-2: Creating a object
 a = JunkFileOrganizer.Organize()
 
-Step-3: Call arrange() method using created object
+Step-3: Call organize() method using created object
 a.organize()
 
 Step-4: After that you would see
@@ -76,14 +76,14 @@ i. time.localtime():- To convert the time in localtime
 
 ### Name of Classes and uses
 ```
-1. Arrange
+1. Organize
 ```
-#### 1. Arrange Class:
-This `Arrange` is used to wrap all the methods and improve the security level 
+#### 1. Organize Class:
+This `Organize` is used to wrap all the methods and improve the security level 
 
 ### Name of Methods and uses
 ```
-1. arrange()
+1. organize()
 2. make_base_directory(path)
 3. make_day_directory(path)
 4. remove_directory(path)
@@ -98,8 +98,8 @@ This `Arrange` is used to wrap all the methods and improve the security level
 
 ```
 
-#### 1. arrange():
-The `arrange()` method is base method of this module because it works as a navigator. In this method i wrote the user input for both directory any user choise for how to arrange theirs file.
+#### 1. organize():
+The `organize()` method is base method of this module because it works as a navigator. In this method i wrote the user input for both directory any user choise for how to arrange theirs file.
 
 #### 2. make_base_directory(path):
 The `make_base_directory(path)` methods is used to create the base directory (arranged). All the sorted or arranged files are stored in this directory.
