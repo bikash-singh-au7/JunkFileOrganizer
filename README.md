@@ -4,6 +4,7 @@ Project Name: Junk File Organizer
 Auther: Bikash Kumar Singh
 Author Email: bikashsinghak47@gmail.com
 ```
+I used some predefined modules like time, shutil, and os. And I created this project as a python module name 'JunkFileOrganizer'. This module is installed by using the pip command and also download the project file from the Github repository.
 
 # JunkFileOrganizer Module
 The `JunkFileOrganizer` is a Python Module. This module is helpful for arranging the file within the directory. 
@@ -24,13 +25,16 @@ pip install JunkFileOrganizer
 ## How To Use JunkFileOrganizer
 You can easily use `JunkFileOrganizer` module to arrange you file. First you need to install this module. After installation follow these steps: 
 ```
-Step-1: Creating a object
+Step-1: Import JunkFileOrganizer module
+import JunkFileOrganizer
+
+Step-2: Creating a object
 a = JunkFileOrganizer.Arrange()
 
-Step-2: Call arrange() method using created object
+Step-3: Call arrange() method using created object
 a.arrange()
 
-Step-3: After that you would see
+Step-4: After that you would see
 Welcome To JunkFileOrganizer
 [1] Extenssion
 [2] File Modify Date
@@ -38,10 +42,10 @@ Welcome To JunkFileOrganizer
 [4] File Creation Date
 Enter Your Choice: 
 
-Step-4: Enter anyone given option number and hit enter key, After that it ask you to about the directory which you want to sort
+Step-5: Enter anyone given option number and hit enter key, After that it ask you to about the directory which you want to sort
 Enter Directory:
 
-Step-5: After enter the directory again hit enter key and your all file would arranged
+Step-6: After enter the directory again hit enter key and your all file would arranged
 ```
 ## Sort Discription About Making JunkFileOrganizer Module
 In creating this module I used some predefined python module and lots of methods. All methods are written by me.
