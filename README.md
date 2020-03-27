@@ -29,10 +29,10 @@ Step-1: Import JunkFileOrganizer module
 import JunkFileOrganizer
 
 Step-2: Creating a object
-a = JunkFileOrganizer.Arrange()
+a = JunkFileOrganizer.Organize()
 
 Step-3: Call arrange() method using created object
-a.arrange()
+a.organize()
 
 Step-4: After that you would see
 Welcome To JunkFileOrganizer
